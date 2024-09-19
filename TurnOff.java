@@ -14,11 +14,4 @@ public class TurnOff implements Command {
     public String execute() {
         return lights.switchOff();
     }
-    public String execute() {
-        return musicPlayer.switchOn();
-    }
-    @Override
-    public String execute() {
-        return thermostat.switchOff();
-    }
 }
